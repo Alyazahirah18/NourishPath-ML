@@ -30,7 +30,7 @@ The development and implementation of the machine learning models were completed
   The datasets were compiled manually by gathering data from the sources mentioned above. They were further cleaned, standardized (e.g., units in grams and liters), and formatted for model training.
 
 - **Dataset Links**:  
-  [**click this**](https://github.com/Nourish-Path/MachineLearning/tree/main/Dataset)
+  [**Click this**](https://github.com/Nourish-Path/MachineLearning/tree/main/Dataset)
 
 ### Machine Learning Workflow
 #### **1. Check Nutrition and Food Recommendation**
