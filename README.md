@@ -41,10 +41,17 @@ The development and implementation of the machine learning models were completed
      - Normalized the nutrient data using **MinMaxScaler**.
    - **Model**:
      - A **Content-Based Filtering** approach was used to recommend foods based on the cosine similarity between nutrient gaps and available food items.
+     - **Model Structure**: 
+       - **Input Layer**: Contains normalized food data with columns representing nutrients (e.g., carbohydrates, vitamins).
+       - **Hidden Layers**: These layers are responsible for capturing patterns in the nutrient differences and their relevance to the input food data. 
+       - **Output Layer**: The top food recommendations, based on cosine similarity with the nutrient gap of the baby.
    - **Output**: Top N food recommendations that best fulfill the baby's nutritional needs.
 
 #### **2. Check Stunting**
    - **Input**: Age, weight, and height of the child.
+   - **Preprocessing**:
+     - Data was cleaned by handling missing values (e.g., replacing or removing rows with missing age, weight, or height).
+     - **Normalization**: The age, weight, and height features were normalized using **MinMaxScaler** to ensure that all features are within the same scale for better model performance.
    - **Model**:
      - Built using **Artificial Neural Network (ANN)** for binary classification.
      - Structure:
