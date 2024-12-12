@@ -72,5 +72,4 @@ The development and implementation of the machine learning models were completed
   [Nourish Path ML Repository](https://github.com/Nourish-Path/MachineLearning)
 
 ### Note:
-All models and datasets are tailored specifically for this project. The dataset is not directly available from its sources in this structured form and has been processed for this project.  
-This dataset is for educational purposes only and not intended for commercial use.
+All models and datasets are tailored specifically for this project. The dataset is not directly available from its sources in this structured form and has been processed for this project. **The datasets is for educational purposes only and not intended for commercial use.**
